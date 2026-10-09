@@ -4,7 +4,7 @@ test("Login exitoso", async ({ app, page }) => {
   await app.login();
 
   await expect(
-    page.getByText("45454545454545454545871587")
+    page.getByText("Panel principal")
   ).toBeVisible();
 });
 

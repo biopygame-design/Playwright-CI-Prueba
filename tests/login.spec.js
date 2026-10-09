@@ -4,7 +4,7 @@ test("Login exitoso", async ({ app, page }) => {
   await app.login();
 
   await expect(
-    page.getByText("Texto Falso Que No Existe")
+    page.getByText("Panel principal")
   ).toBeVisible();
 });
 

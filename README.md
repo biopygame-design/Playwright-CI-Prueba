@@ -1,3 +1,4 @@
+![CI Status](https://github.com/biopygame-design/Playwright-CI-Prueba/actions/workflows/ci.yml/badge.svg)
 # Playwright - Testing Automatizado
 
 Proyecto desarrollado para la actividad de **Testing Automatizado con Playwright**.
